@@ -1,0 +1,22 @@
+.test {
+    width: 300px;
+    height: 0;
+    background-color: yellowgreen;
+    opacity: 0;
+    transition: 1s;
+    z-index: 0;
+}
+
+.show {
+    height: 300px;
+    opacity: 1;
+}
+
+.button_test {
+    z-index: 1;
+}
+
+.generator_text {
+    border: 1px red solid;
+    width: fit-content;
+}

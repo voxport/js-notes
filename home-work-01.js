@@ -14,19 +14,19 @@ console.log(numberMathSqrt);
 // [1, 2, 3, 4, 5]
 
 // Решение:
-let numberAll = [1, 2, 3, 4, 5]; //15
+/* let numberAll = [1, 2, 3, 4, 5]; //15
 
         function numberSum(numberAll) {
                 return numberAll.reduce((total, n) => total + n)
         }
-        console.log(numberSum(numberAll))
+        console.log(numberSum(numberAll)) */
 //----------------------------------------------------------------------------------------------------------------------------------------
 
 // Задача 3:
 // Напишите функцию, которая принимает массив чисел и возвращает новый массив, состоящий из элементов исходного массива в обратном порядке.
 
 // Решение: 
-const composition = [1, 2, 3, 4, 5]
+/* const composition = [1, 2, 3, 4, 5]
         const sortResult = [];
 
                 composition.sort((a,b) => b - a);
@@ -37,5 +37,5 @@ const composition = [1, 2, 3, 4, 5]
                         sortResult.push(composition[index])
                 }
 
-                console.log(sortResult);
+                console.log(sortResult); */
 //------------------------------------------------------------------------------------------------------------------------------------------
