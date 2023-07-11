@@ -1,22 +1,26 @@
-.test {
+.container {
+    display: flex;
+    gap: 60px;
+}
+
+.box {
     width: 300px;
-    height: 0;
-    background-color: yellowgreen;
-    opacity: 0;
-    transition: 1s;
-    z-index: 0;
-}
-
-.show {
     height: 300px;
-    opacity: 1;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.button_test {
-    z-index: 1;
+.boxText {
+    font-size: 60px;
 }
 
-.generator_text {
-    border: 1px red solid;
-    width: fit-content;
+.boxSecondary {
+    width: 300px;
+    height: 300px;
+    background-color: goldenrod;
+    transition: all, 5s;
 }
+
+/* clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); */
