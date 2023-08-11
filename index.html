@@ -10,24 +10,32 @@
 </head>
 
 <body>
+   
+    
 
-    <div class="container">
-        <div class="box">
-            <p class="boxText">Click Me</p>
+    <form class="form" action="">
+        <h1>Согласие на ипотеку</h1>
+        <label class="form__label" for="input_nameUser">enter your name
+            <input class="form__label-input" type="text" id="input_nameUser">
+        </label>
+        <label class="form__label" for="input_UserTel">enter your tel
+            <input class="form__label-input" type="tel" id="input_UserTel" inputmode="numeric" pattern="[0-9]*">
+          </label>
+        <button class="form__button" type="button">Согласен :((</button>
+    </form>
+
+    <div class="allert">
+        <div class="container">
+            <h1 class="allert_title">Еще думаешь? У тебя же все почки на месте!</h1>
+            <button class="close_button" type="button">X</button>
         </div>
-
-        <div class="boxSecondary">
-
-        </div>
+            
     </div>
 
 
-
-
-
-
-
-
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" type="module"></script>
+    <script src="./js/inputmask.min.js/inputmask.min.js" type="module"></script>
+    <script src="./js/todo.js" type="module"></script>
     <script src="./js/dom.js" type="module"></script>
     <script src="./js/ternaryOperator.js" type="module"></script>
     <script src="./js/logicalOperator.js" type="module"></script>
